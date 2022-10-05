@@ -1,0 +1,239 @@
+/* Configurações Globais */
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
+  color: #111111;
+}
+
+h1,
+ul,
+p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Variáveis */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --g1: #f7f7f7;
+  --g2: #ededed;
+  --g3: #dedede;
+  --g4: #cccccc;
+  --g5: #b3b3b3;
+  --g6: #9c9c9c;
+  --g7: #707070;
+  --g8: #595959;
+  --g9: #404040;
+  --g10: #2e2e2e;
+  --g11: #111111;
+
+  --y1: #ffbb00;
+  --y2: #e4a30b;
+  --y3: #a66f00;
+  --y4: #664400;
+  --y5: #332200;
+
+  --gradient: linear-gradient(#ffbf00, #f2a50c);
+  --gradient-hover: linear-gradient(#ffb60d, #e59317);
+}
+
+/* ponto de decoraçãop */
+.dot-yellow {
+  color: var(--y1);
+}
+
+/* Tipografia */
+/* Poppins */
+.font-1-xxl {
+  font-size: 4rem;
+  line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.font-1-xl {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.font-1-l {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.font-1-m {
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.font-1-m-b {
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.font-1-s {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.font-1-xs {
+  font-size: 0.75rem;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+/* Roboto */
+.font-2-l {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.font-2-l-b {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.font-2-m {
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.font-2-s {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.font-2-xs {
+  font-size: 0.875rem;
+  line-height: 1.42;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .font-1-xxl {
+    font-size: 3rem;
+  }
+  .font-2-l,
+  .font-2-l-b {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-size: 2rem;
+  }
+  .font-1-xl,
+  .font-2-xl {
+    font-size: 1.5rem;
+  }
+}
+
+/* Cores de Fontes */
+.c-white {
+  color: var(--white);
+}
+
+.g1 {
+  color: var(--g1);
+}
+
+.g2 {
+  color: var(--g2);
+}
+
+.g3 {
+  color: var(--g3);
+}
+
+.g4 {
+  color: var(--g4);
+}
+
+.g5 {
+  color: var(--g5);
+}
+
+.g6 {
+  color: var(--g6);
+}
+
+.g7 {
+  color: var(--g7);
+}
+
+.g8 {
+  color: var(--g8);
+}
+
+.g9 {
+  color: var(--g9);
+}
+
+.g10 {
+  color: var(--g10);
+}
+
+.g11 {
+  color: var(--g11);
+}
+
+.c-black {
+  color: var(--black);
+}
+
+.y1 {
+  color: var(--y1);
+}
+
+.y2 {
+  color: var(--y2);
+}
+
+.y3 {
+  color: var(--y3);
+}
+
+.y4 {
+  color: var(--y4);
+}
+
+.y5 {
+  color: var(--y5);
+}
