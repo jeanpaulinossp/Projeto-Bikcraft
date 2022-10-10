@@ -9,11 +9,8 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  /*margin auto faz com que os elementos acompanham após estourar o max-width*/
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu {

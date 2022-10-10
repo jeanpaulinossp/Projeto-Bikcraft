@@ -1,4 +1,12 @@
+/* Global */
 @import "/css/global/global.css";
-@import "/css/global/header.css";
+
+/* Home */
 @import "/css/home/introducao.css";
+@import "/css/home/tecnologia.css";
+
+/* Bicicletas */
+@import "/css/bicicletas/bicicletas-lista.css";
+
+@import "/css/global/header.css";
 @import "/css/components/components.css";
