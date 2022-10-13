@@ -10,10 +10,20 @@
   font-family: "Poppins";
   font-weight: 600;
   color: #332200;
+  max-width: max-content;
 }
 
 .btn:hover {
   background: var(--gradient-hover);
+}
+
+.btn.secundario {
+  background: var(--g10);
+  color: var(--g2);
+}
+
+.btn.secundario:hover {
+  background: var(--g9);
 }
 
 @media (max-width: 600px) {

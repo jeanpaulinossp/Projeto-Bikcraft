@@ -4,9 +4,14 @@
 /* Home */
 @import "/css/home/introducao.css";
 @import "/css/home/tecnologia.css";
+@import "/css/home/parceiros.css";
+@import "/css/home/depoimento.css";
 
 /* Bicicletas */
 @import "/css/bicicletas/bicicletas-lista.css";
+
+/* Seguros */
+@import "/css/home/seguros.css";
 
 @import "/css/global/header.css";
 @import "/css/components/components.css";
