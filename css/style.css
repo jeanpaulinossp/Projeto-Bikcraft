@@ -1,5 +1,7 @@
 /* Global */
 @import "/css/global/global.css";
+@import "/css/global/header.css";
+@import "/css/global/footer.css";
 
 /* Home */
 @import "/css/home/introducao.css";
@@ -13,5 +15,4 @@
 /* Seguros */
 @import "/css/home/seguros.css";
 
-@import "/css/global/header.css";
 @import "/css/components/components.css";
