@@ -11,7 +11,8 @@ h3,
 h4,
 ul,
 p,
-blockquote {
+blockquote,
+dd {
   margin: 0px;
 }
 
@@ -145,6 +146,14 @@ img[src$=".jpg"] {
 }
 
 /* Roboto */
+.font-2-xl {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-family: "Roboto";
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 .font-2-l {
   font-size: 1.5rem;
   line-height: 1.5;
