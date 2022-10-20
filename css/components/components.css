@@ -11,6 +11,8 @@
   font-weight: 600;
   color: #332200;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
