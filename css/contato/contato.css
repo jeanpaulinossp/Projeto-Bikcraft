@@ -14,12 +14,14 @@
 }
 
 .contato-dados {
-  background: var(--black);
+  background: var(--black) url("../../img/decoradores/dec-1.svg") no-repeat top
+    20px right 20px;
   border-radius: 5px 0 0 5px;
 }
 
 .contato-formulario {
-  background: var(--white);
+  background: var(--white) url("../../img/decoradores/dec-bottom-yellow.svg")
+    no-repeat bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
 }
 
@@ -77,6 +79,7 @@
   }
   .contato-dados {
     border-radius: 4px 4px 0 0;
+    background: var(--black);
   }
   .contato-formulario {
     border-radius: 0 0 5px 5px;
