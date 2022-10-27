@@ -66,3 +66,8 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+// Animação
+
+// condicional para ver se o SimplesAnime existe, para que não tente rodar nas demais páginas que não foi importado
+window.SimpleAnime ? new SimpleAnime() : "";
